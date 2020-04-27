@@ -41,7 +41,7 @@ def print_result(result):
 
 
 def parsing():
-    parser = argparse.ArgumentParser(description='Tracing the Autonomous systems')
+    parser = argparse.ArgumentParser(description='Трассировка автономных систем; выполнила Ильина Анна кн-202 (мен-280207)')
     parser.add_argument('-dm', '--domain', type=str, metavar='', help='Ip/domain for tracing')
     args = parser.parse_args()
     ip = args.domain
